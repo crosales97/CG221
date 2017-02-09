@@ -8,3 +8,7 @@ body {
 h1,h2,p,ul{
   text-align: center;
 }
+ul{
+  list-style-type: none;
+}
+
