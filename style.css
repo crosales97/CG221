@@ -11,4 +11,9 @@ h1,h2,p,ul{
 ul{
   list-style-type: none;
 }
-
+a:link {
+    color: red;
+}
+a:hover {
+    color: grey;
+}
