@@ -12,11 +12,11 @@ ul{
   list-style-type: none;
 }
 a:link {
-    color: red;
+    color: grey;
 }
 a:visited {
-    color: red;
+    color: grey;
 }
 a:hover {
-    color: grey;
+    color: black;
 }
