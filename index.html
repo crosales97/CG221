@@ -8,9 +8,43 @@
   </head>
 
   <body>
+
+<script type="text/javascript" src="http://samisite.com/extras/HTMLobj-1640/moveobj.js"> </script>
+<script type="text/javascript">
+ 
+/***********************************************
+* Floating image script- By Virtual_Max (http://www.geocities.com/siliconvalley/lakes/8620)
+* Modified by Dynamic Drive for various improvements
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+* Using CSB or Trellix:  use an INSERT HTML box to hold your script and put your js and images into web components (webgem in Trellix).  Then you MUST change each gEMDIR to GEMDIR before using code!
+***********************************************/
+ 
+//Step 1: Define unique variable names depending on number of flying images (ie:3):
+var flyimage1
+ 
+function pagestart(){
+//Step 2: Using the same variable names as 1), add or delete more of the below lines (47=width, height=68 of image):
+ flyimage1=new Chip("flyimage1",20,20);
+ 
+ 
+//Step 3: Using the same variable names as 1), add or delete more of the below lines:
+movechip("flyimage1");
+ 
+}
+ 
+if (window.addEventListener)
+window.addEventListener("load", pagestart, false)
+else if (window.attachEvent)
+window.attachEvent("onload", pagestart)
+else if (document.getElementById)
+window.onload=pagestart
+ 
+</script>
     <div id="flyimage1" style="position:absolute; left: -500px; width:40; height:62; font-size:10px;">
 <img src="http://www.hoborecipes.com/images/chicken-nugget.png">
 </div>
+    
+    
     <h1>Design &amp; Authoring for Interactive Media</h1>
     <p>
       <a href="https://crosales97.github.io/CG221/bio"><i class="glyphicon glyphicon-user" style="font-size:20px;"></i></a>
