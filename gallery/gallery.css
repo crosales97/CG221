@@ -9,8 +9,7 @@ body {
   font-weight: bold;
   color: rgba(255, 0, 0);
   background-image: url("grid.png");
-    background-attachment: fixed;
-    background-size: cover;
+    background-repeat: repeat-y;
   text-align: center;
   text-transform: lowercase;
 }
