@@ -1,0 +1,80 @@
+.container {
+  max-width: 850px;
+  margin: auto;
+}
+
+body {
+  font-family: 'Ek Mukta', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  background-image: url("none.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-family: 'Ek Mukta';
+  text-transform: uppercase;
+  width: 850px;
+  border: 1.5px solid gray;
+  padding: 10px;
+  margin: auto;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+video {
+  max-width: 100%;
+}
+
+.gallery-item {
+  width: 45%;
+  height: auto;
+  display: inline-block;
+  margin: 2%;
+}
+
+a:hover {
+  color: red;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(71, 86, 95);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(43, 41, 45);
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    h1{
+    font-size: 2rem;
+    width: auto;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
