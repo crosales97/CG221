@@ -1,8 +1,5 @@
 body {
-  background-color: black;
-  background-image: url("backgrounds/blackgrid.gif");
-  background-attachment: fixed;
-  background-position: center;
+    background: black url("backgrounds/blackgrid.gif") center no-repeat;
     font-family: "arial", sans-serif;
   padding: 50px 50px;
 }
