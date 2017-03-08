@@ -1,9 +1,11 @@
 body {
   background-image: url("backgrounds/blackgrid.gif");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
     font-family: "arial", sans-serif;
   padding: 50px 50px;
+  color: white;
 }
 
 h1,h2,p,ul{
@@ -18,8 +20,8 @@ a:link {
     color: white;
 }
 a:visited {
-    color: grey;
+    color: white;
 }
 a:hover {
-    color: white;
+    color: grey;
 }
