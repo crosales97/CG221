@@ -1,11 +1,8 @@
 body {
   font-family: "arial", sans-serif;
   padding: 50px 50px;
-}
-
-body {
-    background-image: ("grid.png");
-    background-repeat: repeat-y;
+  background-image: ("blackgrid.gif");
+  background-attachment: fixed;
 }
 
 h1,h2,p,ul{
