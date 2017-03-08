@@ -3,12 +3,12 @@ body {
   background-attachment: fixed;
   background-position: center;
     font-family: "arial", sans-serif;
-  color: white;
   padding: 50px 50px;
 }
 
 h1,h2,p,ul{
   text-align: center;
+  color: white;
 }
 
 ul{
