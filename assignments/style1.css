@@ -1,0 +1,26 @@
+body {
+  font-family: "arial", sans-serif;
+  background-color: white;
+  padding: 50px 50px;
+}
+
+h1,h2,p,ul{
+  text-align: center;
+}
+
+p {
+    margin: 50px;
+}
+
+ul{
+  list-style-type: none;
+}
+a:link {
+    color: grey;
+}
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: black;
+}
