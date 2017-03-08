@@ -1,12 +1,12 @@
 body {
   font-family: "arial", sans-serif;
   background-color: white;
-  padding: 100px 50px;
-
-
+  padding: 50px 50px;
 }
+
+
 h1,h2,h3,p,ul{
-  text-align: center;
+  text-align: right;
 }
 ul{
   list-style-type: none;
