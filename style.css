@@ -1,5 +1,5 @@
 body {
-    background: black url("backgrounds/grids.jpg") center no-repeat;
+    background-color: black; background-image: url("backgrounds/blackgrid.gif") center no-repeat;
     font-family: "arial", sans-serif;
   padding: 50px 50px;
 }
