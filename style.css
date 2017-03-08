@@ -1,12 +1,11 @@
 body {
-  background-color: #000000;
+  background-color: black;
   background-image: url("backgrounds/blackgrid.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
     font-family: "arial", sans-serif;
   padding: 50px 50px;
-  color: white;
 }
 
 h1,h2,p,ul{
