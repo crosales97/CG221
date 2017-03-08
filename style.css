@@ -9,11 +9,8 @@ h1,h2,p,ul{
   text-align: center;
 }
 
-p {
-    margin-top: 10px;
-    margin-bottom: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
+p   {
+max-width: 33rem ;
 }
 
 ul{
