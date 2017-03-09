@@ -106,3 +106,30 @@ body > div.circle
 {
     border-radius:50%;
 }
+
+
+.box {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 900px;
+  background: #ADD8E6;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  color:#fff;
+  font-family:arial;
+  font-weight:900;
+  font-size:3.4em;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear;
+  width: 95px;
+
+}
+.box:hover {
+  background: #ff7b29;
+  border-radius: 50%;
+}
