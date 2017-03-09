@@ -1,10 +1,13 @@
 h1{
     text-align: left;
-    color: grey;
+    color: black;
 }
 
 a:link {
-    color: grey;
+    color: black;
+}
+a:link {
+    color: black;
 }
 
 p {
