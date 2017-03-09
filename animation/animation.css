@@ -34,7 +34,8 @@ width: 100%;
 
 body > div.grow
 {
-    margin:200px 300px;
+    float: left;
+    margin: 200px 200px;
     width:200px;
     height:600px;
     background:#F08080;
@@ -45,10 +46,11 @@ body > div.grow
     text-align:center;
     line-height:298px;
     transition:all 0.3s ease;
-    
+
     position: absolute;
-    left: 100px;
-    top: 150px;
+left: 100px;
+top: 150px;
+
 }
 
 .grow:hover
@@ -60,6 +62,7 @@ body > div.grow
 
 body > div.shrink
 {
+    float: right;
     margin:200px 100px;
     width:500px;
     height:200px;
@@ -73,7 +76,7 @@ body > div.shrink
     transition:all 0.3s ease;
     position: absolute;
     right: 100px;
-    top: 150px;
+    top: 200px;
 }
 .shrink:hover
 {
@@ -103,5 +106,3 @@ body > div.circle
 {
     border-radius:50%;
 }
-
-
