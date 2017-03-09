@@ -19,7 +19,7 @@ ul{
 a:link {
     color: white;
 }
-a:hover {
-    color: #F8F8FF;
+a:visited {
+    color: white;
 }
 
