@@ -170,3 +170,16 @@ body {
   text-align: center;
   transform: rotateY(180deg);
 }
+
+
+.nugget {
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+
+.nugget:hover {
+  transform: rotateY(180deg);
+}
