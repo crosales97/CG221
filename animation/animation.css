@@ -135,7 +135,7 @@ body > div.circle
 }
 
 body {
-  font: 600 14px/24px Arial, Sans-Serif;
+  font: Arial;
   margin: 12px 0;
 }
 .card-container {
