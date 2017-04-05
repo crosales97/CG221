@@ -1,0 +1,111 @@
+@font-face {
+    font-family: sans-serif;
+    src: url(https://fonts.google.com/specimen/Permanent+Marker);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+     background-image: url("about.jpg");
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Trebuchet MS;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+a {
+    color: #606060;
+}
+
+a:hover {
+    color: #e1e1e1;
+}
+
+
+#stripe {
+    width: 500px;
+    background: #000000;
+    opacity: 0.5;
+    margin: 0 auto;
+    height: 100%;
+    z-index: -1;
+    margin-top: -400px;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    z-index: 1;
+    left: 0%;
+    right: 0%;
+}
+
+#title {
+    font-size: 170px;
+    width: 100%;
+    -moz-text-shadow: 0 0 6px #000000;
+    -webkit-text-shadow: 0 0 6px #000000;
+    text-shadow: 0 0 6px #000000;
+    color: #ffffff; /*title color*/
+    font-family: Didot;
+    text-align: center;
+    letter-spacing: -10px;
+    margin-top: -200px;
+}
+
+#left-line {
+    width: 35%;
+    z-index: -1;
+    height: 1px;
+    background: #ffffff;
+    opacity: 0.7;
+    margin-top: 400px;
+}
+
+#right-line {
+    width: 35%;
+    z-index: -1;
+    height: 1px;
+    background: #ffffff;
+    opacity: 0.7;
+    position: absolute;
+    right: 0px;
+}
+
+#navigation {
+    text-align: center;
+    margin-top: -22px;
+    font-family: arial;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+#navigation a {
+    color: #ffffff;
+    padding: 10px;
+}
+
+#navigation a:hover {
+    color: #606060;
+}
+
+#description {
+    width: 450px;
+    padding-top: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    color: #ffffff;
+    opacity: 0.8;
+    line-height: 16px;
+    font-weight: none;
+    padding-bottom: 20px;
+}
