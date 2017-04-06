@@ -46,9 +46,6 @@ a:hover {
 #title {
     font-size: 170px;
     width: 100%;
-    -moz-text-shadow: 0 0 6px #000000;
-    -webkit-text-shadow: 0 0 6px #000000;
-    text-shadow: 0 0 6px #000000;
     color: #ffffff; 
     font-family: Didot;
     text-align: center;
