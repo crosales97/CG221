@@ -22,12 +22,13 @@ a:hover {
 }
 
 #stripe {
-    width: 1000px;
+    width: 500px;
     background: #000000;
     opacity: 0.5;
     margin: 0 auto;
     height: 100%;
     z-index: -1;
+    margin-top: -400px;
     left: 0%;
     right: 0%;
     position: fixed;
