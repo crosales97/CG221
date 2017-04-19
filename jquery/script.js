@@ -7,3 +7,10 @@ $(document).ready(function(){
         div.animate({width: '100px', opacity: '0.8'}, "slow");
     });
 });
+
+$('#my-list li').hover(function() {
+      $(this).stop().animate({ fontSize : '20px' });
+},
+function() {
+      $(this).stop().animate({ fontSize : '12px' });
+});
