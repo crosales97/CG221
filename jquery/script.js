@@ -14,3 +14,12 @@ $('#my-list li').hover(function() {
 function() {
       $(this).stop().animate({ fontSize : '12px' });
 });
+
+
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#div1").fadeIn();
+        $("#div2").fadeIn("slow");
+        $("#div3").fadeIn(3000);
+    });
+});
