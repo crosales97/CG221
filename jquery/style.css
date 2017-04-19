@@ -10,6 +10,13 @@ body {
     color: white;
 }
 
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+
 #panel, #flip {
     padding: 5px;
     text-align: center;
