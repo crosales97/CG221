@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
 body {
     background-color: black;
   background-image: url("backgrounds/blackgrid.gif");
   background-attachment: fixed;
   background-position: center;
-    font-family: "arial", sans-serif;
+    font-family: 'Permanent Marker', cursive;
   padding: 35px 35px;
     color: white;
 }
@@ -11,10 +13,10 @@ body {
 #panel, #flip {
     padding: 5px;
     text-align: center;
-    background-color: #e5eecc;
-    border: solid 1px #c3c3c3;
+    background-color: #ccccff;
+    border: solid 1px #ccccff;
 }
 
 #panel {
     padding: 50px;
-    display: none;
+    display: none
