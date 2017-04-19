@@ -1,4 +1,12 @@
-
+body {
+    background-color: black;
+  background-image: url("backgrounds/blackgrid.gif");
+  background-attachment: fixed;
+  background-position: center;
+    font-family: "arial", sans-serif;
+  padding: 35px 35px;
+    color: white;
+}
 
 #panel, #flip {
     padding: 5px;
