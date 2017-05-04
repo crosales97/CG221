@@ -2,5 +2,10 @@ body {
   background-image: url("backgrounds/gridbg.png");
   background-attachment: fixed;
   background-position: center;
-  padding: 50px 50px;
+  margin: 0;
+    display: flex;
+
+    /* centers sketch. */
+    justify-content: center;
+    align-items: center;
 }
