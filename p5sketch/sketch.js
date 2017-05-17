@@ -38,7 +38,7 @@ translate(0, 0, 0);
 
 push();
 if (mouseIsPressed)
-translate(pmouseX, pmouseY)
+translate(pmouseX + -1000, pmouseY + -500)
 else
 translate(240, 0, 0);
   rotateZ(frameCount * 0.01);
@@ -56,7 +56,7 @@ translate(240, 0, 0);
     pop();
 
     push();
-    translate(mouseX, mouseY, pmouseX, pmouseY);
+    translate(mouseX + -500, mouseY + -500, pmouseX, pmouseY);
     sphere(50);
     pop();
 }
