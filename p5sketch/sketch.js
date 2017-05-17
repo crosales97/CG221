@@ -11,14 +11,16 @@ function draw(){
 
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
-  texture(img);
+  texture(img3);
   box(100, 100, 100);
 
   translate(100,100,-100);
+  texture(img);
   sphere(50);
 
 
   translate(-100,100,100);
+  texture(img);
   sphere(50);
 
   beginShape();
