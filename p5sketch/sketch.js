@@ -3,6 +3,7 @@ function setup() {
   createCanvas(2000, 1000, WEBGL);
   img = loadImage("doggo.jpg");
   img2 = loadImage("flowers.jpg");
+  img3 = loadImage("nuggets.jpg");
 }
 
 function draw(){
@@ -80,4 +81,25 @@ translate(240, 0, 0);
     box(300, 300, 300);
     texture(img);
     pop();
+  
+  
+  push();
+    if (keyIsPressed === true)
+        translate(800,-900,-1000);
+     else
+    translate(700, 0, 0);
+    rotateX(frameCount * 0.01);
+    rotateY(frameCount * 0.01);
+    box(300, 300, 300);
+    texture(img3);
+    pop();
+  
+  push();
+    translate(-740, -700, -500);
+      rotateZ(frameCount * 0.01);
+      rotateX(frameCount * 0.01);
+      rotateY(frameCount * 0.01);
+      torus(70, 20);
+      texture(img3);
+      pop();
 }
