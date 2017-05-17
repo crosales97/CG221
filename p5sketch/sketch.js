@@ -101,7 +101,7 @@ translate(240, 0, 0);
       rotateZ(frameCount * 0.01);
       rotateX(frameCount * 0.01);
       rotateY(frameCount * 0.01);
-      torus(70, 20);
+      cone(50, 100);
       texture(img3);
       pop();
 }
