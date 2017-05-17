@@ -2,10 +2,7 @@
 function setup() {
   createCanvas(2000, 1000, WEBGL);
   img = loadImage("doggo.jpg");
-  
-  vid = createVideo(["flowerss.mp4"]);
-  vid.loop();
-  vid.hide();
+  img2 = loadImage("flowers.jpg");
 }
 
 function draw(){
@@ -42,7 +39,7 @@ translate(0, 0, 0);
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
   torus(70, 20);
-  texture(vid);
+  texture(img2);
   pop();
 
 push();
@@ -67,7 +64,7 @@ translate(240, 0, 0);
     push();
     translate(mouseX + -500, mouseY + -500, pmouseX, pmouseY);
     sphere(50);
-  texture(vid);
+  texture(img2);
     pop();
   
   push();
