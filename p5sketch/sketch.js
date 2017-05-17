@@ -96,12 +96,4 @@ translate(240, 0, 0);
     texture(img3);
     pop();
   
-  push();
-    translate(-740, -700, -500);
-      rotateZ(frameCount * 0.01);
-      rotateX(frameCount * 0.01);
-      rotateY(frameCount * 0.01);
-      cone(50, 100);
-      texture(img3);
-      pop();
 }
