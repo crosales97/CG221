@@ -10,6 +10,7 @@ function draw(){
 
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
+  texture(img);
   box(100, 100, 100);
 
   translate(100,100,-100);
@@ -51,6 +52,7 @@ translate(240, 0, 0);
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
   torus(70, 20);
+  texture(img2);
   pop();
 
   push();
@@ -59,6 +61,7 @@ translate(240, 0, 0);
     rotateX(frameCount * 0.01);
     rotateY(frameCount * 0.01);
     torus(70, 20);
+  texture(img2);
     pop();
 
     push();
@@ -68,6 +71,9 @@ translate(240, 0, 0);
     pop();
   
   push();
+  if (keyIsPressed === true)
+        translate(800,-900,-1000);
+     else
     translate(-540, 0, 0);
     rotateX(frameCount * 0.01);
     rotateY(frameCount * 0.01);
