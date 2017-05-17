@@ -16,3 +16,11 @@ body {
     text-align: center;
     left: 500px;
 }
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
