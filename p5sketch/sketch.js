@@ -34,6 +34,9 @@ pop();
 
 
   push();
+    if (keyIsPressed === true)
+      translate(-700,-900,-1000);
+   else
 translate(0, 0, 0);
   rotateZ(frameCount * 0.01);
   rotateX(frameCount * 0.01);
