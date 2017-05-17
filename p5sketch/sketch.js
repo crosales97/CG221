@@ -68,7 +68,7 @@ translate(240, 0, 0);
     pop();
 
     push();
-    translate(mouseX + -500, mouseY + -500, pmouseX, pmouseY);
+    translate(mouseX + -1000 , mouseY + -500, pmouseX + -1000, pmouseY + -500);
     sphere(50);
   texture(img2);
     pop();
