@@ -1,6 +1,7 @@
 
 function setup() {
   createCanvas(2000, 1000, WEBGL);
+  img = loadImage("doggo.jpg");
 }
 
 function draw(){
@@ -58,5 +59,13 @@ translate(240, 0, 0);
     push();
     translate(mouseX + -500, mouseY + -500, pmouseX, pmouseY);
     sphere(50);
+    pop();
+  
+  push();
+    translate(-540, 0, 0);
+    rotateX(frameCount * 0.01);
+    rotateY(frameCount * 0.01);
+    box(300, 300, 300);
+    texture(img);
     pop();
 }
