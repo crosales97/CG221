@@ -10,12 +10,17 @@ body {
     align-items: center;
 }
 
+
+/* attemt to center header gif */
+
 .center {
     position: absolute;
     top: 5px;
     text-align: center;
     left: 600px;
 }
+
+/* icons */
 
 a:link {
     color: black;
