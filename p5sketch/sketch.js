@@ -7,6 +7,8 @@ function setup() {
 }
 
 function draw(){
+  
+  /* center rotation */ 
   push();
 
   rotateX(frameCount * 0.01);
@@ -33,6 +35,7 @@ endShape();
 pop();
 
 
+  /* rings */ 
 
   push();
     if (keyIsPressed === true)
@@ -67,12 +70,14 @@ translate(240, 0, 0);
   texture(img2);
     pop();
 
+  /* mouse trailing object */ 
     push();
     translate(mouseX + -1000 , mouseY + -500, pmouseX + -1000, pmouseY + -500);
     sphere(50);
   texture(img2);
     pop();
-  
+ 
+  /* giant boxes */ 
   push();
   if (keyIsPressed === true)
         translate(800,-900,-1000);
