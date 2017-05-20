@@ -1,0 +1,75 @@
+
+
+body {
+    background-color: white;
+  background-image: url("");
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Trebuchet MS;
+  font-size: 12px;
+  letter-spacing: 2px;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+  list-style-type: none;
+}
+a {
+    color: #606060;
+}
+
+a:hover {
+    color: #e1e1e1;
+}
+
+#nugget {
+  position: absolute;
+  left: 200px;
+  padding:20px;
+  padding-bottom: 50px;
+}
+
+#container {
+  position: relative;
+    left: 600px;
+    width: 500px;
+    padding: 20px;
+  }
+
+  #submit{
+    margin: auto;
+    padding: 50px;
+
+  }
+
+  .ui-dialog {
+      left: 0;
+      outline: 0 none;
+      padding: 0 ;
+      position: absolute;
+      top: 0;
+  }
+
+  .ui-dialog .ui-dialog-content {
+      background: none repeat scroll 0 0 transparent;
+      border: 0 none;
+      overflow: auto;
+      position: relative;
+      padding: 0 ;
+  }
+
+  .ui-widget-header {
+      background: #DCDCDC;
+      border: 0;
+      color: #fff;
+      font-weight: normal;
+  }
+
+  .ui-dialog .ui-dialog-titlebar {
+      padding: 0.1em .5em;
+      position: relative;
+          font-size: 1em;
+  }
