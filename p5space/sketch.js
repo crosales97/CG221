@@ -1,7 +1,4 @@
-var teapot;
-function preload() {
-  teapot = loadModel('assets/teapot.obj');
-}
+
 
 function setup() {
   createCanvas(2000, 1000, WEBGL);
@@ -87,11 +84,6 @@ sphere(30);
 
 pop();
 
-push();
-  rotateX(frameCount * 0.01);
-  rotateY(frameCount * 0.01);
-  model(teapot);
-pop();
 /* mouse trailing object */
     push();
     translate(mouseX + -1000 , mouseY + -500, pmouseX + -1000, pmouseY + -500);
