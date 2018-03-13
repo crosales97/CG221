@@ -83,7 +83,7 @@ texture(img8);
 sphere(35);
 
 if (keyIsPressed === true)
-    translate(-100,-100,-100);
+    translate(100,100,100);
  else
 translate(0, 0, 0);
 texture(img9);
