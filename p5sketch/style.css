@@ -16,8 +16,9 @@ body {
 .center {
     position: absolute;
     top: 5px;
-    text-align: center;
+   text-align: center;
     left: 500px;
+
 }
 
 /* icons */
