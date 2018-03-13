@@ -65,7 +65,7 @@ texture(img6);
 sphere(50);
 
 if (keyIsPressed === true)
-    translate(-700,-900,-1000);
+    translate(-100,-100,-100);
  else
 translate(0, 0, 0);
 texture(img7);
@@ -77,7 +77,7 @@ texture(img8);
 sphere(35);
 
 if (keyIsPressed === true)
-    translate(-700,-900,-1000);
+    translate(-100,-100,-100);
  else
 translate(0, 0, 0);
 texture(img9);
