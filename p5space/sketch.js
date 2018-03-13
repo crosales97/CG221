@@ -13,6 +13,7 @@ function setup() {
   img8 = loadImage("uranusmap.jpg");
   img9 = loadImage("uranusringcolour.jpg");
   img11 = loadImage("neptunemap.jpg");
+  img11 = loadImage("moonmap1k.jpg");
 }
 
 function draw(){
@@ -42,6 +43,11 @@ function draw(){
 translate(50,50,50);
 texture(img3);
 sphere(25);
+  
+/*moon*/
+translate(25,25,25);
+texture(img12);
+sphere(5);
 
 /*mars*/
 translate(-50,50,50);
