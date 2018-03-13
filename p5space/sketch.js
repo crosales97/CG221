@@ -15,6 +15,8 @@ function setup() {
   img11 = loadImage("neptunemap.jpg");
   img12 = loadImage("moonmap1k.jpg");
   img13 = loadImage("asteroidbelt.gif");
+  img14 = loadImage("tech.jpg");
+  img15 = loadImage("panel.jpg");
 }
 
 function draw(){
@@ -107,7 +109,17 @@ pop();
 /* mouse trailing object */
     push();
     translate(mouseX + -1000 , mouseY + -500, pmouseX + -1000, pmouseY + -500);
-    sphere(50);
+    rotateY(frameCount * 0.01);
+    rotateZ(frameCount * 0.01);
+    texture(img14);
+    cone(40, 50,);
+    translate(0,20,0);
+    texture(img14);
+    cylinder(20, 80);
+    translate(0,10,0);
+    texture(img15);
+    plane(150, 50);
+
     pop();
 
 }
