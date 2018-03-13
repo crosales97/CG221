@@ -100,7 +100,7 @@ pop();
   rotateY(frameCount * 0.01);
   rotateZ(frameCount * 0.01);
   texture(img13);
-  torus(500, 50);
+  torus(500, 10);
 
 
 
