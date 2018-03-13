@@ -95,10 +95,14 @@ pop();
 
 /*asteroid belt*/
   push();
-
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
   rotateZ(frameCount * 0.01);
+
+  if (mouseIsPressed)
+  translate(pmouseX + -1000, pmouseY + -500)
+  else
+  translate(0, 0, 0);
   texture(img13);
   torus(500, 10);
 
