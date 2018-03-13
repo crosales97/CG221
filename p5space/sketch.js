@@ -43,6 +43,9 @@ function draw(){
   sphere(20);
 
 /*earth*/
+  if (mouseIsPressed)
+  translate(pmouseX + -1000, pmouseY + -500)
+  else
 translate(50,50,50);
 texture(img3);
 sphere(25);
