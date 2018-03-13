@@ -13,7 +13,7 @@ function setup() {
   img8 = loadImage("uranusmap.jpg");
   img9 = loadImage("uranusringcolour.jpg");
   img11 = loadImage("neptunemap.jpg");
-  img11 = loadImage("moonmap1k.jpg");
+  img12 = loadImage("moonmap1k.jpg");
 }
 
 function draw(){
