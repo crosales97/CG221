@@ -14,7 +14,7 @@ function setup() {
   img9 = loadImage("uranusringcolour.jpg");
   img11 = loadImage("neptunemap.jpg");
   img12 = loadImage("moonmap1k.jpg");
-  img13 = loadImage("belt.png");
+  img13 = loadImage("asteroidbelt.gif");
 }
 
 function draw(){
