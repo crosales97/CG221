@@ -14,6 +14,7 @@ function setup() {
   img9 = loadImage("uranusringcolour.jpg");
   img11 = loadImage("neptunemap.jpg");
   img12 = loadImage("moonmap1k.jpg");
+  img13 = loadImage("belt.png");
 }
 
 function draw(){
@@ -90,6 +91,19 @@ sphere(30);
 
 pop();
 
+/*asteroid belt*/
+  push();
+
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  rotateZ(frameCount * 0.01);
+  texture(img13);
+  torus(500, 50);
+
+
+
+  pop();
+  
 /* mouse trailing object */
     push();
     translate(mouseX + -1000 , mouseY + -500, pmouseX + -1000, pmouseY + -500);
