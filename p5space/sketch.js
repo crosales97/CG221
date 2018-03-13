@@ -111,6 +111,7 @@ pop();
     translate(mouseX + -1000 , mouseY + -500, pmouseX + -1000, pmouseY + -500);
     rotateY(frameCount * 0.01);
     rotateZ(frameCount * 0.01);
+    translate(0,0,0);
     texture(img14);
     cone(40, 50,);
     translate(0,20,0);
