@@ -120,11 +120,14 @@ pop();
 
     rotateY(frameCount * 0.01);
     rotateZ(frameCount * 0.01);
-    translate(0,0,0)
+    translate(0,0,0);
+    texture(img14);
     cone(40, 50);
     translate(0,20,0);
+    texture(img14);
     cylinder(20, 80);
     translate(0,10,0);
+    texture(img15);
     plane(150, 50);
 
 
